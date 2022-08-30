@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bai_5.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- menu  -->
+    <div class="wrap_menu_btn">
+        <div class="wrap_pannel">
+            <div class="menu_pannel top"></div>
+            <div class="menu_pannel middle"></div>
+            <div class="menu_pannel bottom"></div>
+        </div>
+        <div class="left_bracket">[</div>
+        <div class="right_bracket">]</div>
+    </div>
+
+    <div class="modal_base_of_wrap_menu_btn">
+        <div class="container_describe">
+            <div class="before_ribbon"></div> <!-- before_ribbon -->
+            <div class="wrap_describe">
+                <p>Di chuột qua các tùy chọn để xem mô tả về tùy chọn đó</p>
+            </div>
+            <div class="after_ribbon"></div> <!-- after_ribbon -->
+        </div>
+        <div class="discription_conner">
+            Nhấn vào chỗ trống để thoát menu
+            <div class="shadow_of_discription_conner"></div>
+        </div>
+    </div>
+
+    <!-- Nav menu  -->
+    <nav class="nav_menu">
+
+        <!-- icon toggler options_0 -->
+        <div class="wrap_menu_options options_0">
+            <div class="sub_wrap_menu_options toggler">
+                <svg class="option_icon toggler" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.404 199.404">
+                    <polygon
+                        points="63.993,199.404 163.695,99.702 63.993,0 35.709,28.285 107.127,99.702 35.709,171.119  " />
+                </svg>
+            </div>
+        </div>
+
+        <div class="wrap_menu_options options_1">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon support" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M452.028,222.199C447.087,131.883,361.062,59.733,256,59.733S64.913,131.883,59.972,222.199    C25.745,224.683,0,242.372,0,264.533v34.133c0,23.927,29.986,42.667,68.267,42.667c4.719,0,8.533-3.814,8.533-8.533V230.4    c0-84.693,80.393-153.6,179.2-153.6s179.2,68.907,179.2,153.6v98.867l-20.599,20.599h-17.664    c8.115-20.659,12.664-43.401,12.664-67.32c0-93.585-68.907-169.719-153.6-169.719s-153.6,76.134-153.6,169.719    S171.307,452.267,256,452.267c56.883,0,106.53-34.423,133.077-85.333h29.056c2.27,0,4.437-0.896,6.033-2.5l23.159-23.159    c36.548-1.126,64.674-19.43,64.674-42.607v-34.133C512,242.372,486.255,224.683,452.028,222.199z M59.733,323.9    c-25.532-2.244-42.667-14.302-42.667-25.233v-34.133c0-10.931,17.135-22.989,42.667-25.233V323.9z M378.351,349.875h-79.684    c0-14.114-11.486-25.6-25.6-25.6h-34.133c-14.114,0-25.6,11.486-25.6,25.6v17.067c0,14.114,11.486,25.6,25.6,25.6h34.133    c14.114,0,25.6-11.486,25.6-25.6h71.014C345.19,408.038,303.394,435.2,256,435.2c-75.281,0-136.533-68.471-136.533-152.653    S180.719,129.903,256,129.903s136.533,68.471,136.533,152.653C392.533,306.739,387.345,329.532,378.351,349.875z M281.6,349.867    v17.067c0,4.71-3.823,8.533-8.533,8.533h-34.133c-4.71,0-8.533-3.823-8.533-8.533v-17.067c0-4.71,3.823-8.533,8.533-8.533h34.133    C277.777,341.333,281.6,345.156,281.6,349.867z M494.933,298.667c0,10.931-17.135,22.989-42.667,25.233V239.3    c25.532,2.244,42.667,14.302,42.667,25.233V298.667z" />
+                </svg>
+            </div>
+        </div>
+        <div class="wrap_menu_options options_2">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon setting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+                    <path
+                        d="M600.704 64a32 32 0 0130.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0134.432 15.36L944.32 364.8a32 32 0 01-4.032 37.504l-77.12 85.12a357.12 357.12 0 010 49.024l77.12 85.248a32 32 0 014.032 37.504l-88.704 153.6a32 32 0 01-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 01600.704 960H423.296a32 32 0 01-30.464-22.208L357.696 828.48a351.616 351.616 0 01-42.56-24.64l-112.32 24.256a32 32 0 01-34.432-15.36L79.68 659.2a32 32 0 014.032-37.504l77.12-85.248a357.12 357.12 0 010-48.896l-77.12-85.248A32 32 0 0179.68 364.8l88.704-153.6a32 32 0 0134.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 01423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 00-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 000 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0034.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0034.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 000-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 00-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 110 384 192 192 0 010-384zm0 64a128 128 0 100 256 128 128 0 000-256z" />
+                </svg>
+            </div>
+        </div>
+        <div class="wrap_menu_options options_3">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon chatting" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                    <polygon
+                        points="21.908,21.486 7.159,21.486 2.22,23.462 2.22,11.051 4.089,11.051 4.089,8.831 0,8.831 0,23.706 0,26.741     7.586,23.706 24.128,23.706 24.128,21.331 21.908,20.442   " />
+                    <path
+                        d="M6.245,3.259v14.646h16.286L30,20.893v-2.987V3.259H6.245z M13.423,12.076c-0.765,0-1.384-0.62-1.384-1.384    c0-0.764,0.62-1.384,1.384-1.384c0.764,0,1.384,0.62,1.384,1.384C14.807,11.456,14.188,12.076,13.423,12.076z M18.159,12.076    c-0.765,0-1.384-0.62-1.384-1.384c0-0.764,0.619-1.384,1.384-1.384c0.764,0,1.384,0.62,1.384,1.384    C19.543,11.456,18.924,12.076,18.159,12.076z M22.822,12.076c-0.766,0-1.385-0.62-1.385-1.384c0-0.764,0.621-1.384,1.385-1.384    c0.765,0,1.385,0.62,1.385,1.384C24.207,11.456,23.587,12.076,22.822,12.076z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- icon toggler options_0 -->
+        <div class="wrap_menu_options options_0">
+            <div class="sub_wrap_menu_options toggler">
+                <svg class="option_icon toggler" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199.404 199.404">
+                    <polygon
+                        points="63.993,199.404 163.695,99.702 63.993,0 35.709,28.285 107.127,99.702 35.709,171.119  " />
+                </svg>
+            </div>
+        </div>
+
+        <div class="wrap_menu_options options_4">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon favourite" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 472.7 472.7">
+                    <path
+                        d="M433.5,67c-25.3-25.3-59-39.3-94.8-39.3s-69.6,14-94.9,39.4l-7.3,7.3l-7.5-7.5   c-25.4-25.4-59.1-39.4-95-39.4c-35.8,0-69.4,13.9-94.7,39.3C13.9,92.2,0,125.9,0,161.7s14,69.5,39.4,94.8l182.7,182.7   c3.8,3.8,9,6,14.5,6c5.4,0,10.6-2.2,14.5-6l182.2-182.4c25.4-25.4,39.3-59.1,39.4-94.9S458.8,92.4,433.5,67z M132.5,117.2   c-23.9,0-43.4,19.5-43.4,43.4c0,11-8.9,19.9-19.9,19.9s-19.9-8.9-19.9-19.9c0-45.8,37.3-83.1,83.1-83.1c11,0,19.9,8.9,19.9,19.9   C152.4,108.4,143.5,117.2,132.5,117.2z" />
+                </svg>
+            </div>
+        </div>
+        <div class="wrap_menu_options options_5">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon rules" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                            }
+                        </style>
+                    </defs>
+                    <path d="M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,26A12,12,0,1,1,28,16,12,12,0,0,1,16,28Z" />
+                    <circle cx="16" cy="23.5" r="1.5" />
+                    <path
+                        d="M17,8H15.5A4.49,4.49,0,0,0,11,12.5V13h2v-.5A2.5,2.5,0,0,1,15.5,10H17a2.5,2.5,0,0,1,0,5H15v4.5h2V17a4.5,4.5,0,0,0,0-9Z" />
+                </svg>
+            </div>
+        </div>
+        <div class="wrap_menu_options options_6">
+            <div class="sub_wrap_menu_options">
+                <svg class="option_icon home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+                    <path
+                        d="M28,0C12.561,0,0,12.561,0,28s12.561,28,28,28s28-12.561,28-28S43.439,0,28,0z M28,54C13.663,54,2,42.336,2,28    S13.663,2,28,2s26,11.664,26,26S42.337,54,28,54z" />
+                    <path
+                        d="M28.707,9.293c-0.391-0.391-1.023-0.391-1.414,0l-16,16c-0.286,0.286-0.372,0.716-0.217,1.09    C11.231,26.756,11.596,27,12,27h3v18c0,0.552,0.447,1,1,1h8h8h8c0.553,0,1-0.448,1-1V27h3c0.404,0,0.77-0.244,0.924-0.617    c0.155-0.374,0.069-0.804-0.217-1.09L28.707,9.293z M25,44V33h6v11H25z M39,44h-6V32c0-0.552-0.447-1-1-1h-8c-0.553,0-1,0.448-1,1    v12h-6V27h22V44z M40,25H16h-1.586L28,11.414L41.586,25H40z" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <!-- scroll to TOP  -->
+    <div id="scroll_to_top_btn"></div>
+
+    <!-- wave begin  -->
+    <div class="wave_container">
+        <svg class="wave_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave"
+                    d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" />
+                <use xlink:href="#gentle-wave" x="48" y="3" />
+                <use xlink:href="#gentle-wave" x="48" y="5" />
+                <use xlink:href="#gentle-wave" x="48" y="7" />
+            </g>
+        </svg>
+    </div>
+    <!-- wave end -->
+
+    <div class="modal_base_ques">
+
+        <!-- Câu 1 -->
+        <div id="ques_1" class="ques_pannel ques_pannel_1">
+            <h1 class="title">Câu 1: Ấn Độ thuộc châu lục nào ?</h1>
+            <div class="ans_container">
+                <div class="wrap_ans ans_a">
+                    <input type="radio" name="answer_ques_1" value="a" class="tick_input">
+                    <p class="ans">
+                        Châu Á
+                    </p>
+                </div>
+                <div class="wrap_ans ans_b">
+                    <input type="radio" name="answer_ques_1" value="b" class="tick_input">
+                    <p class="ans">
+                        Châu Âu
+                    </p>
+                </div>
+                <div class="wrap_ans ans_c">
+                    <input type="radio" name="answer_ques_1" value="c" class="tick_input">
+                    <p class="ans">
+                        Châu Mỹ
+                    </p>
+                </div>
+                <div class="wrap_ans ans_d">
+                    <input type="radio" name="answer_ques_1" value="d" class="tick_input">
+                    <p class="ans">
+                        Châu Úc
+                    </p>
+                </div>
+            </div>
+            <span id="message_ques_1" class="message">
+                <h1>Lời giải:</h1>
+                <div class="explain">
+                    <ul>
+                        <li>Ấn độ là quốc gia thuộc Châu Á</li>
+                        <li class="search"><a href="https://vi.wikipedia.org">Tra tài liệu</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+
+        <!-- Câu 2 -->
+        <div id="ques_2" class="ques_pannel ques_pannel_2">
+            <h1 class="title">Câu 2: Mỹ thuộc châu lục nào ?</h1>
+            <div class="ans_container">
+                <div class="wrap_ans ans_a">
+                    <input type="radio" name="answer_ques_2" value="a" class="tick_input">
+                    <p class="ans">
+                        Châu Á
+                    </p>
+                </div>
+                <div class="wrap_ans ans_b">
+                    <input type="radio" name="answer_ques_2" value="b" class="tick_input">
+                    <p class="ans">
+                        Châu Âu
+                    </p>
+                </div>
+                <div class="wrap_ans ans_c">
+                    <input type="radio" name="answer_ques_2" value="c" class="tick_input">
+                    <p class="ans">
+                        Châu Mỹ
+                    </p>
+                </div>
+                <div class="wrap_ans ans_d">
+                    <input type="radio" name="answer_ques_2" value="d" class="tick_input">
+                    <p class="ans">
+                        Châu Úc
+                    </p>
+                </div>
+            </div>
+            <span id="message_ques_2" class="message">
+                <h1>Lời giải:</h1>
+                <div class="explain">
+                    <ul>
+                        <li>Mỹ là quốc gia thuộc Châu Mỹ</li>
+                        <li class="search"><a href="https://vi.wikipedia.org">Tra tài liệu</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+
+        <!-- Câu 3 -->
+        <div id="ques_3" class="ques_pannel ques_pannel_3">
+            <h1 class="title">Câu 3: Úc thuộc châu lục nào ?</h1>
+            <div class="ans_container">
+                <div class="wrap_ans ans_a">
+                    <input type="radio" name="answer_ques_3" value="a" class="tick_input">
+                    <p class="ans">
+                        Châu Á <br>
+                        Cụ thể là Đông Nam Á
+                    </p>
+                </div>
+                <div class="wrap_ans ans_b">
+                    <input type="radio" name="answer_ques_3" value="b" class="tick_input">
+                    <p class="ans">
+                        Châu Âu
+                    </p>
+                </div>
+                <div class="wrap_ans ans_c">
+                    <input type="radio" name="answer_ques_3" value="c" class="tick_input">
+                    <p class="ans">
+                        Châu Mỹ
+                    </p>
+                </div>
+                <div class="wrap_ans ans_d">
+                    <input type="radio" name="answer_ques_3" value="d" class="tick_input">
+                    <p class="ans">
+                        Châu Úc
+                    </p>
+                </div>
+            </div>
+            <span id="message_ques_3" class="message">
+                <h1>Lời giải:</h1>
+                <div class="explain">
+                    <ul>
+                        <li>Úc là quốc gia thuộc Châu Úc</li>
+                        <li class="search"><a href="https://vi.wikipedia.org">Tra tài liệu</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+
+        <!-- Câu 4 -->
+        <div id="ques_4" class="ques_pannel ques_pannel_4">
+            <h1 class="title">Câu 4: Pháp thuộc châu lục nào ?</h1>
+            <div class="ans_container">
+                <div class="wrap_ans ans_a">
+                    <input type="radio" name="answer_ques_4" value="a" class="tick_input">
+                    <p class="ans">
+                        Châu Á
+                    </p>
+                </div>
+                <div class="wrap_ans ans_b">
+                    <input type="radio" name="answer_ques_4" value="b" class="tick_input">
+                    <p class="ans">
+                        Châu Âu <br>
+                        Cụ thể là Tây Âu
+                    </p>
+                </div>
+                <div class="wrap_ans ans_c">
+                    <input type="radio" name="answer_ques_4" value="c" class="tick_input">
+                    <p class="ans">
+                        Châu Mỹ
+                    </p>
+                </div>
+                <div class="wrap_ans ans_d">
+                    <input type="radio" name="answer_ques_4" value="d" class="tick_input">
+                    <p class="ans">
+                        Châu Úc
+                    </p>
+                </div>
+            </div>
+            <span id="message_ques_4" class="message">
+                <h1>Lời giải:</h1>
+                <div class="explain">
+                    <ul>
+                        <li>Pháp là quốc gia thuộc Châu Âu</li>
+                        <li class="search"><a href="https://vi.wikipedia.org">Tra tài liệu</a></li>
+                    </ul>
+                </div>
+            </span>
+        </div>
+
+        <div class="cre">
+            <p>By Lth Loi&trade; | Code VCN Team &reg;</p>
+        </div>
+
+    </div>
+
+    <script src="Bai_5.js"></script>
+</body>
+
+</html>
